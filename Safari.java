@@ -61,7 +61,7 @@ public class Safari {
     public void setTourRating(double tourRating) {
         this.tourRating = tourRating;
     }
-    public void setTotalPackageCost(int durationInDays) {
+    public void setTotalPackageCost() {
         this.totalPackageCost = durationInDays * processingFeePerDay;
     }
 public String toString() {

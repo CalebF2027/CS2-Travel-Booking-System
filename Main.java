@@ -47,6 +47,7 @@ public static Safari bookTrip(Scanner scan) {
     newTrip.setDestination(clientDestination);
     newTrip.setDurationInDays(clientDuration);
     newTrip.setStayInHotels(clientHotel);
+    newTrip.setTotalPackageCost();
 
     // 4. Return the completed travel object
     return newTrip;
